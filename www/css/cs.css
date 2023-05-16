@@ -1,0 +1,84 @@
+    * {
+        margin: 0;
+        color: #fff;
+        box-sizing: border-box;
+        border: none;
+    }
+
+    .totalzone {
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+    }
+
+    .textinhos {
+        color: #fff;
+        position: relative;
+        align-items: baseline;
+
+    }
+
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100vw;
+    }
+
+    .centro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+  
+    .a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .bloquinV {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        border-radius: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .ld {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloquinV:hover {
+        background-color: grey;
+    }
+
+    .bloquinV[ocupado] {
+        background-color: darkslategrey;
+    }
+
+    .poltrona {
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 8px;
+        display: inline-block;
+    }
+
+    .butão {
+        width: 100px;
+        height: 25px;
+        background-color: rebeccapurple;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .butão:hover {
+        background-color: rgb(48, 44, 97);
+        transform: translateY(1px);
+    }
